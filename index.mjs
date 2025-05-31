@@ -123,6 +123,7 @@ export const handler = async (event) => {
       body: JSON.stringify({ response: response?.message }),
     };
   } catch (error) {
+    console.log("Thavasumoorthi")
     console.error("Error:", error);
     return {
       statusCode: 500,
